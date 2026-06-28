@@ -12,7 +12,7 @@ export default function HowItWorks() {
             Seamless Care &<br /> Complete Coordination
           </h2>
           <p className="text-gray-500 text-sm max-w-xl leading-relaxed">
-            Evara connects every dot in your family's healthcare journey. <br className="hidden md:block" />
+            Evara connects every dot in your family&apos;s healthcare journey. <br className="hidden md:block" />
             Find, book, and manage health services all in one centralized platform.
           </p>
         </div>
@@ -20,71 +20,67 @@ export default function HowItWorks() {
         {/* Bento Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           
-          {/* Top Row: 3 Cards */}
-          
-          {/* Card 1 */}
+          {/* Card 1 — Doctor Visits */}
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 flex flex-col justify-end min-h-[380px] relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-[220px]">
-              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Personalized Care" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=600&q=80" alt="Doctor home visit" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="pt-[240px]">
-              <h3 className="font-bold text-[#111] text-lg mb-2">Personalized Care</h3>
+              <h3 className="font-bold text-[#111] text-lg mb-2">Doctor Home Visits</h3>
               <p className="text-gray-500 text-xs leading-relaxed">
-                Tailor healthcare plans for every family member. Keep track of vitals and specific medical needs effortlessly.
+                Qualified physicians come directly to your parents&apos; home. No travel, no waiting rooms — just quality care at their doorstep.
               </p>
             </div>
           </div>
 
-          {/* Card 2 */}
+          {/* Card 2 — Specialist Network */}
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 flex flex-col justify-end min-h-[380px] relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-[220px]">
-              <img src="https://images.unsplash.com/photo-1551076805-e18690c5e561?auto=format&fit=crop&w=600&q=80" alt="Find Specialists" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" alt="Medical specialists" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="pt-[240px]">
-              <h3 className="font-bold text-[#111] text-lg mb-2">Find Specialists</h3>
+              <h3 className="font-bold text-[#111] text-lg mb-2">Specialist Referrals</h3>
               <p className="text-gray-500 text-xs leading-relaxed">
-                Search and discover top-rated doctors and specialists in your area. Book appointments instantly.
+                Access a curated network of cardiologists, neurologists, orthopedics and more. We book, coordinate, and report back to you.
               </p>
             </div>
           </div>
 
-          {/* Card 3 */}
+          {/* Card 3 — Lab Tests */}
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 flex flex-col justify-end min-h-[380px] relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-[220px]">
-               <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=600&q=80" alt="Track Progress" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?auto=format&fit=crop&w=600&q=80" alt="Lab technician" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="pt-[240px]">
-              <h3 className="font-bold text-[#111] text-lg mb-2">Track Progress</h3>
+              <h3 className="font-bold text-[#111] text-lg mb-2">At-Home Lab Tests</h3>
               <p className="text-gray-500 text-xs leading-relaxed">
-                Monitor recovery and wellness trends over time. Get insights and detailed analytics on your family's health journey.
+                Blood work, urine tests, glucose monitoring — all performed at home by certified technicians. Results sent directly to your dashboard.
               </p>
             </div>
           </div>
 
-          {/* Bottom Row: 2 Wider Cards */}
-          
-          {/* Card 4 (Col span 2 on md) */}
+          {/* Card 4 — Pharmacy Delivery (wide) */}
           <div className="md:col-span-2 bg-white rounded-2xl border border-gray-100 shadow-sm p-6 md:p-8 flex flex-col justify-end min-h-[340px] relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-[220px]">
-               <img src="https://images.unsplash.com/photo-1584308666744-24d5e4a8677c?auto=format&fit=crop&w=800&q=80" alt="Manage Prescriptions" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&q=80" alt="Pharmacy medicines" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="pt-[220px]">
-              <h3 className="font-bold text-[#111] text-lg mb-2">Manage Prescriptions & Reminders</h3>
+              <h3 className="font-bold text-[#111] text-lg mb-2">Pharmacy Delivery & Prescription Management</h3>
               <p className="text-gray-500 text-xs leading-relaxed max-w-lg">
-                Never miss a dose. Automatically import prescriptions and set up recurring reminders for the whole family. Seamlessly order refills directly to your door.
+                Never let your family run out of medication. We manage prescriptions, set up automatic refill reminders, and deliver medicines right to their doorstep.
               </p>
             </div>
           </div>
 
-          {/* Card 5 (Col span 1 on md) */}
+          {/* Card 5 — Emergency Ambulance */}
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 md:p-8 flex flex-col justify-end min-h-[340px] relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-[220px]">
-                <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=600&q=80" alt="Centralized Records" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80" alt="Emergency medical response" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="pt-[220px]">
-              <h3 className="font-bold text-[#111] text-lg mb-2">Centralized Records</h3>
+              <h3 className="font-bold text-[#111] text-lg mb-2">Emergency Response</h3>
               <p className="text-gray-500 text-xs leading-relaxed">
-                Keep all medical records, lab results, and vaccination histories in one secure, easily accessible place.
+                24/7 emergency coordination with ambulance dispatch. One call from anywhere in the world and we mobilize immediately.
               </p>
             </div>
           </div>
