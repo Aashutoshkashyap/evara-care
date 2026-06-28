@@ -37,7 +37,7 @@ export default function PricingSection() {
       ],
       ctaText: "Start Premium Plan",
       isPopular: true,
-      color: "bg-[#0e142a] text-white border-[#0e142a] transform scale-105 shadow-2xl z-10 relative",
+      color: "bg-[#020924] text-white border-[#020924] transform scale-105 shadow-2xl z-10 relative",
     },
     {
       name: "Total Wellness",
@@ -65,7 +65,7 @@ export default function PricingSection() {
     <section id="pricing" className="w-full bg-[#f8fafc] py-24">
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center mb-20">
-          <span className="text-[#0e142a] font-bold tracking-widest text-sm uppercase mb-3 block">
+          <span className="text-[#020924] font-bold tracking-widest text-sm uppercase mb-3 block">
             Pricing Plans
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-[#111] mb-6">
@@ -83,7 +83,7 @@ export default function PricingSection() {
               className={`rounded-3xl border p-8 md:p-10 transition-all duration-300 hover:-translate-y-2 ${plan.color}`}
             >
               {plan.isPopular && (
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#0e142a] text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg whitespace-nowrap tracking-wide uppercase">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#020924] text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg whitespace-nowrap tracking-wide uppercase">
                   Most Popular
                 </div>
               )}
@@ -96,7 +96,7 @@ export default function PricingSection() {
                 <span className={`text-base font-medium mb-1 ${plan.isPopular ? 'text-blue-200' : 'text-gray-500'}`}>{plan.period}</span>
               </div>
               
-              <button className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 shadow-md hover:shadow-lg mb-8 ${plan.isPopular ? 'bg-[#0e142a] text-white hover:bg-[#0e142a]' : 'bg-gray-100 text-gray-900 hover:bg-gray-200'}`}>
+              <button className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 shadow-md hover:shadow-lg mb-8 ${plan.isPopular ? 'bg-[#020924] text-white hover:bg-[#020924]' : 'bg-gray-100 text-gray-900 hover:bg-gray-200'}`}>
                 {plan.ctaText}
               </button>
 
@@ -104,7 +104,7 @@ export default function PricingSection() {
                 <p className={`text-xs font-bold uppercase tracking-wider mb-4 ${plan.isPopular ? 'text-blue-200' : 'text-gray-400'}`}>What's included</p>
                 {plan.features.map((feature, fIndex) => (
                   <div key={fIndex} className="flex items-start gap-3">
-                    <div className={`mt-1 p-0.5 rounded-full flex-shrink-0 ${plan.isPopular ? 'bg-white/20 text-white' : 'bg-blue-50 text-[#0e142a]'}`}>
+                    <div className={`mt-1 p-0.5 rounded-full flex-shrink-0 ${plan.isPopular ? 'bg-white/20 text-white' : 'bg-blue-50 text-[#020924]'}`}>
                       <Check size={14} strokeWidth={3} />
                     </div>
                     <span className={`text-sm font-medium leading-tight ${plan.isPopular ? 'text-gray-100' : 'text-gray-600'}`}>{feature}</span>
