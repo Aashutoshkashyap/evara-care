@@ -12,7 +12,7 @@ export default function HowItWorks() {
             Seamless Care &<br /> Complete Coordination
           </h2>
           <p className="text-gray-500 text-sm max-w-xl leading-relaxed">
-            Evara connects every dot in your family&apos;s healthcare journey. <br className="hidden md:block" />
+            Avoracare connects every dot in your family&apos;s healthcare journey. <br className="hidden md:block" />
             Find, book, and manage health services all in one centralized platform.
           </p>
         </div>

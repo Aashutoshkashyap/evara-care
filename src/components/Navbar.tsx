@@ -7,7 +7,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
            <div className="w-4 h-4 bg-[#0f766e] rounded-full opacity-80 -mr-3"></div>
-           <span className="font-bold text-2xl tracking-tight text-gray-900 z-10">Evara</span>
+           <span className="font-bold text-2xl tracking-tight text-gray-900 z-10">Avoracare</span>
         </Link>
 
         {/* Desktop Links */}

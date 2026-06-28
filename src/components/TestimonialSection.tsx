@@ -33,7 +33,7 @@ export default function TestimonialSection() {
               <span className="text-[100px] text-[#f1f5f9] font-serif leading-none absolute -top-4 -left-2 z-0 transition-transform group-hover:-translate-y-2">&ldquo;</span>
               <div className="relative z-10">
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                  "I live in Dubai and my parents are in Kathmandu. When my father needed an urgent cardiologist visit, Evara arranged everything within hours. I got the full report on my phone the same evening."
+                  "I live in Dubai and my parents are in Kathmandu. When my father needed an urgent cardiologist visit, Avoracare arranged everything within hours. I got the full report on my phone the same evening."
                 </p>
                 <div className="flex items-center gap-4">
                   <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Rajesh" className="w-12 h-12 rounded-full object-cover" />
@@ -72,7 +72,7 @@ export default function TestimonialSection() {
               <div className="mt-8 flex justify-center mb-4"><Stars /></div>
               <h3 className="font-bold text-[#111] text-lg mb-3">Exceptional service!</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                "My father had a sudden fever at midnight. I called the Evara hotline from London and they had a doctor at his home within 90 minutes. The follow-up was thorough."
+                "My father had a sudden fever at midnight. I called the Avoracare hotline from London and they had a doctor at his home within 90 minutes. The follow-up was thorough."
               </p>
               <p className="font-bold text-[#0f766e]">Priya Thapa</p>
               <p className="text-gray-400 text-xs">London, UK</p>
@@ -81,7 +81,7 @@ export default function TestimonialSection() {
             {/* Card 4 */}
             <div className="bg-white rounded-3xl p-8 shadow-sm group hover:shadow-md transition-shadow">
               <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                "My mother needed regular lab tests. Evara sends a technician to her home every month, and the results go straight to my dashboard. It has made managing her condition so much easier."
+                "My mother needed regular lab tests. Avoracare sends a technician to her home every month, and the results go straight to my dashboard. It has made managing her condition so much easier."
               </p>
               <div className="flex items-center gap-4">
                 <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Anita" className="w-12 h-12 rounded-full object-cover" />
@@ -102,7 +102,7 @@ export default function TestimonialSection() {
                 "The ambulance response saved my father's life."
               </p>
               <p className="text-gray-600 text-sm leading-relaxed mb-6 relative z-10">
-                "He had a cardiac episode at 2 AM. I called Evara from Canada and they dispatched an ambulance immediately. He was at the hospital within 20 minutes."
+                "He had a cardiac episode at 2 AM. I called Avoracare from Canada and they dispatched an ambulance immediately. He was at the hospital within 20 minutes."
               </p>
               <div className="flex items-center justify-end gap-3 relative z-10">
                 <p className="font-bold text-[#0f766e] text-xs">Dipesh Pandey <span className="text-gray-400 font-normal"> - Toronto, Canada</span></p>
@@ -113,7 +113,7 @@ export default function TestimonialSection() {
             <div className="bg-white rounded-3xl p-8 shadow-sm group hover:shadow-md transition-shadow">
               <div className="flex justify-start mb-4"><Stars /></div>
               <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                "As a single child working abroad, the guilt of leaving my elderly parents was overwhelming. Evara became my trusted partner on the ground."
+                "As a single child working abroad, the guilt of leaving my elderly parents was overwhelming. Avoracare became my trusted partner on the ground."
               </p>
               <div className="flex items-center gap-4">
                 <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80" alt="Arun" className="w-12 h-12 rounded-full object-cover" />

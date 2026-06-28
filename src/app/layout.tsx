@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Evara | Family Care Coordination",
+  title: "Avoracare | Family Care Coordination",
   description: "Modern family care coordination platform for health checkups, pharmacy, and appointment booking.",
 };
 

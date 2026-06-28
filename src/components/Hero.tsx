@@ -15,7 +15,7 @@ export default function Hero() {
         {/* Floating Box on the Right */}
         <div className="bg-white/95 backdrop-blur-md p-10 md:p-12 rounded-2xl shadow-2xl w-full max-w-[480px]">
           <p className="text-[#0f766e] font-bold tracking-widest text-sm uppercase mb-3">
-            Evara Family Care
+            Avoracare Family Care
           </p>
           <h1 className="text-4xl md:text-[42px] font-bold text-[#111] mb-5 leading-[1.15]">
             Distance Shouldn&apos;t <br/> Compromise Their Care

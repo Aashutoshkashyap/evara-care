@@ -7,7 +7,7 @@ export default function ContactForm() {
             Get in Touch
           </h2>
           <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
-            Have questions about how Evara can help your family back home? Our team is ready to answer all your questions and help you get started.
+            Have questions about how Avoracare can help your family back home? Our team is ready to answer all your questions and help you get started.
           </p>
         </div>
 

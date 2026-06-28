@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="md:col-span-12 lg:col-span-4 flex flex-col pr-8">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="w-5 h-5 bg-[#0f766e] rounded-full"></div>
-              <span className="font-bold text-3xl tracking-tight text-white">Evara</span>
+              <span className="font-bold text-3xl tracking-tight text-white">Avoracare</span>
             </Link>
             <p className="text-blue-100 text-[15px] leading-relaxed mb-8 max-w-sm">
               Your trusted partner in diaspora family care coordination. We bridge the distance so you can work abroad with complete peace of mind.
@@ -70,7 +70,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-[#0f766e]">✉️</span>
-                <span>support@evaracare.com</span>
+                <span>support@avoracare.com</span>
               </li>
             </ul>
           </div>
@@ -80,7 +80,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-blue-200/60 text-sm">
-            © {new Date().getFullYear()} Evara Care. All Rights Reserved.
+            © {new Date().getFullYear()} Avoracare. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-blue-200/60">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
