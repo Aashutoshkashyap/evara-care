@@ -16,7 +16,7 @@ export default function TestimonialSection() {
       <div className="max-w-7xl mx-auto px-8">
         
         <div className="text-center mb-16 relative z-10">
-          <span className="text-[#182350] font-bold tracking-widest text-sm uppercase mb-3 block">
+          <span className="text-[#191970] font-bold tracking-widest text-sm uppercase mb-3 block">
             Testimonials
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-[#111] mb-6">
@@ -46,7 +46,7 @@ export default function TestimonialSection() {
             </div>
 
             {/* Card 2 - Blue accent */}
-            <div className="bg-[#182350] text-white rounded-3xl p-8 shadow-lg relative group hover:-translate-y-1 transition-transform">
+            <div className="bg-[#191970] text-white rounded-3xl p-8 shadow-lg relative group hover:-translate-y-1 transition-transform">
               <div className="flex justify-between items-start mb-6">
                 <Stars count={5} />
                 <span className="text-5xl text-white/20 font-serif leading-none absolute top-6 right-6">&rdquo;</span>
@@ -74,7 +74,7 @@ export default function TestimonialSection() {
               <p className="text-gray-600 text-sm leading-relaxed mb-6">
                 "My father had a sudden fever at midnight. I called the Avoracare hotline from London and they had a doctor at his home within 90 minutes. The follow-up was thorough."
               </p>
-              <p className="font-bold text-[#182350]">Priya Thapa</p>
+              <p className="font-bold text-[#191970]">Priya Thapa</p>
               <p className="text-gray-400 text-xs">London, UK</p>
             </div>
 
@@ -105,7 +105,7 @@ export default function TestimonialSection() {
                 "He had a cardiac episode at 2 AM. I called Avoracare from Canada and they dispatched an ambulance immediately. He was at the hospital within 20 minutes."
               </p>
               <div className="flex items-center justify-end gap-3 relative z-10">
-                <p className="font-bold text-[#182350] text-xs">Dipesh Pandey <span className="text-gray-400 font-normal"> - Toronto, Canada</span></p>
+                <p className="font-bold text-[#191970] text-xs">Dipesh Pandey <span className="text-gray-400 font-normal"> - Toronto, Canada</span></p>
               </div>
             </div>
 
