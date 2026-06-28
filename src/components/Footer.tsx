@@ -13,7 +13,7 @@ export default function Footer() {
           </Link>
           <div className="mt-auto">
             <p className="text-gray-400 text-[11px] mb-2 font-medium">
-              © 2026 Evara Inc. All Rights Reserved.
+              © 2026 Evara Care. All Rights Reserved.
             </p>
             <p className="text-gray-400 text-[11px] font-medium">
               <a href="#" className="hover:text-gray-600 transition-colors">Terms of Service</a> | <a href="#" className="hover:text-gray-600 transition-colors">Privacy Policy</a>
@@ -21,36 +21,36 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Column 2: Products */}
+        {/* Column 2: Services */}
         <div className="flex flex-col">
-          <h4 className="font-bold text-sm text-gray-900 mb-6">Products</h4>
+          <h4 className="font-bold text-sm text-gray-900 mb-6">Services</h4>
           <ul className="space-y-4 text-[12px] font-medium text-gray-400">
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Product</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Pricing</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Log in</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Request access</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Partnerships</a></li>
+            <li><a href="#services" className="hover:text-gray-800 transition-colors">Doctor Consultations</a></li>
+            <li><a href="#services" className="hover:text-gray-800 transition-colors">Pharmacy Delivery</a></li>
+            <li><a href="#services" className="hover:text-gray-800 transition-colors">At-Home Lab Tests</a></li>
+            <li><a href="#services" className="hover:text-gray-800 transition-colors">Emergency Transport</a></li>
+            <li><a href="#pricing" className="hover:text-gray-800 transition-colors">Care Plans & Pricing</a></li>
           </ul>
         </div>
 
-        {/* Column 3: About us */}
+        {/* Column 3: Company */}
         <div className="flex flex-col">
-          <h4 className="font-bold text-sm text-gray-900 mb-6">About us</h4>
+          <h4 className="font-bold text-sm text-gray-900 mb-6">Company</h4>
           <ul className="space-y-4 text-[12px] font-medium text-gray-400">
-            <li><a href="#" className="hover:text-gray-800 transition-colors">About Evara</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Contact us</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Features</a></li>
+            <li><a href="#about" className="hover:text-gray-800 transition-colors">About Evara</a></li>
+            <li><a href="#contact" className="hover:text-gray-800 transition-colors">Contact Us</a></li>
+            <li><a href="#faq" className="hover:text-gray-800 transition-colors">FAQ</a></li>
             <li><a href="#" className="hover:text-gray-800 transition-colors">Careers</a></li>
           </ul>
         </div>
 
-        {/* Column 4: Resources */}
+        {/* Column 4: Support */}
         <div className="flex flex-col">
-          <h4 className="font-bold text-sm text-gray-900 mb-6">Resources</h4>
+          <h4 className="font-bold text-sm text-gray-900 mb-6">Support</h4>
           <ul className="space-y-4 text-[12px] font-medium text-gray-400">
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Help center</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Book a demo</a></li>
-            <li><a href="#" className="hover:text-gray-800 transition-colors">Server status</a></li>
+            <li><a href="#" className="hover:text-gray-800 transition-colors">Help Center</a></li>
+            <li><a href="#" className="hover:text-gray-800 transition-colors">Care Hotline</a></li>
+            <li><a href="#" className="hover:text-gray-800 transition-colors">Partner Hospitals</a></li>
             <li><a href="#" className="hover:text-gray-800 transition-colors">Blog</a></li>
           </ul>
         </div>
@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="flex flex-col max-w-[200px]">
           <h4 className="font-bold text-sm text-gray-900 mb-6">Get in touch</h4>
           <p className="text-gray-400 text-[12px] font-medium leading-relaxed mb-8">
-            Questions or feedback?<br />We&apos;d love to hear from you
+            Questions about coordinating<br />care for your family back home?<br />We&apos;re here to help.
           </p>
           <div className="flex items-center gap-4 mt-auto">
             <a href="#" aria-label="Facebook" className="text-gray-800 hover:text-black transition-colors">

@@ -62,7 +62,7 @@ export default function FaqSection() {
               onClick={() => toggle(index)}
               className="w-full flex items-center justify-between px-6 py-5 text-left"
             >
-              <span className={`font-semibold text-[15px] pr-4 ${openIndex === index ? "text-[#0f766e]" : "text-[#0f766e]"}`}>
+              <span className={`font-semibold text-[15px] pr-4 ${openIndex === index ? "text-[#0f766e]" : "text-[#111]"}`}>
                 {faq.question}
               </span>
               <ChevronDown

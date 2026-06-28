@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { User, Search, Heart, ShoppingCart } from "lucide-react";
 
 export default function Navbar() {
   return (

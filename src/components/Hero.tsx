@@ -19,7 +19,7 @@ export default function Hero() {
           <p className="text-[#0f766e] font-bold tracking-widest text-sm uppercase mb-3">
             Evara Family Care
           </p>
-          <h1 className="text-4xl md:text-[42px] font-bold text-[#0f766e] mb-5 leading-[1.2] text-balance">
+          <h1 className="text-4xl md:text-[42px] font-bold text-[#111] mb-5 leading-[1.2] text-balance">
             Distance Shouldn't <br/> Compromise Their Care
           </h1>
           <p className="text-gray-600 text-[15px] leading-relaxed mb-8">
