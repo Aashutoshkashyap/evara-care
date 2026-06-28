@@ -10,7 +10,7 @@ export default function BeautifySection() {
           <p className="text-gray-600 text-[15px] leading-relaxed mb-8 max-w-[400px]">
             Working abroad means you can&apos;t always be there in person. Avoracare is a dedicated family care coordination system. We bridge the gap by managing doctor appointments, delivering medicines, facilitating lab tests, and providing emergency support locally.
           </p>
-          <button className="bg-[#0f766e] hover:bg-[#115e59] text-white px-10 py-4 rounded-full font-bold tracking-wider text-sm transition-colors shadow-lg">
+          <button className="bg-[#000080] hover:bg-[#000066] text-white px-10 py-4 rounded-full font-bold tracking-wider text-sm transition-colors shadow-lg">
             LEARN MORE
           </button>
         </div>
@@ -18,7 +18,7 @@ export default function BeautifySection() {
         {/* Right — Image with decorative circle */}
         <div className="w-full md:w-[60%] relative flex justify-center items-center min-h-[500px]">
           {/* Decorative teal circle behind the image */}
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[280px] h-[280px] md:w-[350px] md:h-[350px] bg-[#0f766e] rounded-full -z-0 translate-x-[30%]"></div>
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[280px] h-[280px] md:w-[350px] md:h-[350px] bg-[#000080] rounded-full -z-0 translate-x-[30%]"></div>
           {/* Main Image */}
           <img
             src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80"

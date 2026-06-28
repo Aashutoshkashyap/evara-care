@@ -3,7 +3,7 @@ export default function InspirationCollection() {
     <section className="max-w-6xl mx-auto px-8 py-16">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#0f766e] mb-3">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#000080] mb-3">
           Inspiration Collection
         </h2>
         <p className="text-gray-500 text-[15px]">

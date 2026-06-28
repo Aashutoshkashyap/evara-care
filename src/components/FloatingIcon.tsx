@@ -21,7 +21,7 @@ export default function FloatingIcon({ name, className = "", color = "teal" }: F
   }[name];
 
   const colorStyles = {
-    teal: "text-primary bg-primary/10 drop-shadow-[0_20px_20px_rgba(13,148,136,0.2)]",
+    teal: "text-primary bg-primary/10 drop-shadow-[0_20px_20px_rgba(0,0,128,0.2)]",
     orange: "text-secondary bg-secondary/10 drop-shadow-[0_20px_20px_rgba(249,115,22,0.2)]",
     blue: "text-blue-500 bg-blue-500/10 drop-shadow-[0_20px_20px_rgba(59,130,246,0.2)]",
     pink: "text-pink-500 bg-pink-500/10 drop-shadow-[0_20px_20px_rgba(236,72,153,0.2)]",
