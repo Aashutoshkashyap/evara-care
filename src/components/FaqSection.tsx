@@ -41,7 +41,7 @@ export default function FaqSection() {
     <section id="faq" className="max-w-3xl mx-auto px-8 py-20">
       {/* Header */}
       <div className="text-center mb-14">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#191970] mb-3">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#182350] mb-3">
           Frequently Asked Questions
         </h2>
         <p className="text-gray-500 text-[15px]">
@@ -55,20 +55,20 @@ export default function FaqSection() {
           <div
             key={index}
             className={`border rounded-xl overflow-hidden transition-colors ${
-              openIndex === index ? "border-[#191970]/30 bg-[#191970]/5" : "border-gray-200 bg-white"
+              openIndex === index ? "border-[#182350]/30 bg-[#182350]/5" : "border-gray-200 bg-white"
             }`}
           >
             <button
               onClick={() => toggle(index)}
               className="w-full flex items-center justify-between px-6 py-5 text-left"
             >
-              <span className={`font-semibold text-[15px] pr-4 ${openIndex === index ? "text-[#191970]" : "text-[#111]"}`}>
+              <span className={`font-semibold text-[15px] pr-4 ${openIndex === index ? "text-[#182350]" : "text-[#111]"}`}>
                 {faq.question}
               </span>
               <ChevronDown
                 size={20}
                 className={`flex-shrink-0 transition-transform duration-300 ${
-                  openIndex === index ? "rotate-180 text-[#191970]" : "text-gray-400"
+                  openIndex === index ? "rotate-180 text-[#182350]" : "text-gray-400"
                 }`}
               />
             </button>
