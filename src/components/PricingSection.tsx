@@ -4,14 +4,14 @@ export default function PricingSection() {
   const plans = [
     {
       name: "Basic Care",
-      price: "$49",
+      price: "$10",
       period: "/month",
       description: "Essential care coordination for one parent.",
       features: [
-        "1 Monthly Doctor Consult",
+        "1 Monthly Health Check-in",
         "Prescription refill tracking",
         "Basic health dashboard access",
-        "Email support (24hr response)",
+        "Email support (48hr response)",
       ],
       ctaText: "Start Basic Plan",
       isPopular: false,
@@ -19,15 +19,15 @@ export default function PricingSection() {
     },
     {
       name: "Family Premium",
-      price: "$129",
+      price: "$25",
       period: "/month",
       description: "Complete peace of mind for up to two parents.",
       features: [
-        "Unlimited Telehealth Consults",
+        "2 Monthly Doctor Consults",
         "Free monthly medicine delivery",
-        "At-home lab test coordination",
+        "Basic lab test coordination",
         "Real-time vitals dashboard",
-        "Priority 24/7 care hotline",
+        "Priority care hotline",
       ],
       ctaText: "Start Premium Plan",
       isPopular: true,
@@ -35,11 +35,11 @@ export default function PricingSection() {
     },
     {
       name: "Total Wellness",
-      price: "$249",
+      price: "$50",
       period: "/month",
       description: "White-glove healthcare for the whole family.",
       features: [
-        "Everything in Premium",
+        "Unlimited Telehealth Consults",
         "Dedicated personal Care Manager",
         "Emergency ambulance coverage",
         "Specialist referral network access",

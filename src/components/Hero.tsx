@@ -3,7 +3,7 @@ export default function Hero() {
     <section 
       className="relative w-full min-h-[600px] md:min-h-[700px] bg-cover bg-center flex items-center"
       style={{ 
-        backgroundImage: "url('https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&w=2000&q=80')",
+        backgroundImage: "url('https://plus.unsplash.com/premium_photo-1781040300902-95b8de830048?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D')",
         backgroundColor: "#f3f4f6",
       }}
     >
