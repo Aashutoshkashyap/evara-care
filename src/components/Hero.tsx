@@ -23,7 +23,7 @@ export default function Hero() {
           <p className="text-gray-600 text-[15px] leading-relaxed mb-8">
             Coordinate your parents&apos; healthcare from anywhere in the world. We handle the local doctor visits, pharmacy deliveries, and emergencies — so you can have peace of mind.
           </p>
-          <button className="bg-[#191970] hover:bg-[#0a0a40] text-white px-10 py-4 rounded-full font-bold transition-colors shadow-lg">
+          <button className="bg-[#191970] hover:bg-[#191970] text-white px-10 py-4 rounded-full font-bold transition-colors shadow-lg">
             START CARING TODAY
           </button>
         </div>

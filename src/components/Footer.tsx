@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0d2c4a] text-white pt-24 pb-12 w-full mt-auto relative overflow-hidden">
+    <footer className="bg-[#191970] text-white pt-24 pb-12 w-full mt-auto relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#191970]/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
       

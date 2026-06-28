@@ -37,7 +37,7 @@ export default function PricingSection() {
       ],
       ctaText: "Start Premium Plan",
       isPopular: true,
-      color: "bg-[#0d2c4a] text-white border-[#0d2c4a] transform scale-105 shadow-2xl z-10 relative",
+      color: "bg-[#191970] text-white border-[#191970] transform scale-105 shadow-2xl z-10 relative",
     },
     {
       name: "Total Wellness",
@@ -96,7 +96,7 @@ export default function PricingSection() {
                 <span className={`text-base font-medium mb-1 ${plan.isPopular ? 'text-blue-200' : 'text-gray-500'}`}>{plan.period}</span>
               </div>
               
-              <button className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 shadow-md hover:shadow-lg mb-8 ${plan.isPopular ? 'bg-[#191970] text-white hover:bg-[#0a0a40]' : 'bg-gray-100 text-gray-900 hover:bg-gray-200'}`}>
+              <button className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 shadow-md hover:shadow-lg mb-8 ${plan.isPopular ? 'bg-[#191970] text-white hover:bg-[#191970]' : 'bg-gray-100 text-gray-900 hover:bg-gray-200'}`}>
                 {plan.ctaText}
               </button>
 

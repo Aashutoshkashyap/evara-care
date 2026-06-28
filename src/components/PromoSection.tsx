@@ -20,7 +20,7 @@ export default function PromoSection() {
             OFFER ENDS IN 1 DAY
           </h2>
           
-          <button className="bg-[#191970] hover:bg-[#0a0a40] text-white px-8 py-4 flex items-center gap-2 font-bold transition-colors text-sm rounded shadow-xl">
+          <button className="bg-[#191970] hover:bg-[#191970] text-white px-8 py-4 flex items-center gap-2 font-bold transition-colors text-sm rounded shadow-xl">
             Book Now <ArrowRight size={18} />
           </button>
           

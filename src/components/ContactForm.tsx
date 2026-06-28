@@ -30,7 +30,7 @@ export default function ContactForm() {
               <textarea id="message" rows={4} placeholder="Tell us about your family's healthcare needs..." className="px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#191970] transition-all resize-none"></textarea>
             </div>
             <div className="md:col-span-2 mt-4">
-              <button type="button" className="w-full bg-[#191970] hover:bg-[#0a0a40] text-white font-bold text-lg py-4 rounded-xl transition-colors shadow-md">
+              <button type="button" className="w-full bg-[#191970] hover:bg-[#191970] text-white font-bold text-lg py-4 rounded-xl transition-colors shadow-md">
                 Send Message
               </button>
             </div>

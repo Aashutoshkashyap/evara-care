@@ -2,9 +2,9 @@
 
 @theme {
   --color-primary: #191970;
-  --color-primary-light: #2c2c8f;
-  --color-primary-dark: #0a0a40;
-  --color-primary-deep: #050520;
+  --color-primary-light: #191970;
+  --color-primary-dark: #191970;
+  --color-primary-deep: #191970;
   
   --color-secondary: #f97316;
   --color-secondary-light: #fb923c;

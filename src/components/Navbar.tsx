@@ -24,7 +24,7 @@ export default function Navbar() {
           <button className="hidden md:block border border-gray-200 text-gray-700 px-5 py-2 rounded-full font-semibold text-sm hover:bg-gray-50 transition-colors">
             Log In
           </button>
-          <button className="bg-[#191970] hover:bg-[#0a0a40] text-white px-5 py-2 rounded-full font-bold text-sm transition-colors shadow-sm">
+          <button className="bg-[#191970] hover:bg-[#191970] text-white px-5 py-2 rounded-full font-bold text-sm transition-colors shadow-sm">
             Get Started
           </button>
         </div>

@@ -10,7 +10,7 @@ export default function BeautifySection() {
           <p className="text-gray-600 text-[15px] leading-relaxed mb-8 max-w-[400px]">
             Working abroad means you can&apos;t always be there in person. Avoracare is a dedicated family care coordination system. We bridge the gap by managing doctor appointments, delivering medicines, facilitating lab tests, and providing emergency support locally.
           </p>
-          <button className="bg-[#191970] hover:bg-[#0a0a40] text-white px-10 py-4 rounded-full font-bold tracking-wider text-sm transition-colors shadow-lg">
+          <button className="bg-[#191970] hover:bg-[#191970] text-white px-10 py-4 rounded-full font-bold tracking-wider text-sm transition-colors shadow-lg">
             LEARN MORE
           </button>
         </div>
