@@ -6,7 +6,7 @@ export default function HowItWorks() {
     {
       id: "10.1",
       title: "Medicine Reminder Service",
-      desc: "MediReach helps set up medicine schedules for parents or relatives.",
+      desc: "Avora Care helps set up medicine schedules for parents or relatives.",
       icon: <Pill className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -18,7 +18,7 @@ export default function HowItWorks() {
     {
       id: "10.2",
       title: "Appointment Reminder Service",
-      desc: "MediReach helps families track upcoming medical appointments.",
+      desc: "Avora Care helps families track upcoming medical appointments.",
       icon: <CalendarCheck className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -39,7 +39,7 @@ export default function HowItWorks() {
     {
       id: "10.4",
       title: "Prescription Management",
-      desc: "MediReach allows prescriptions to be uploaded and stored, creating a basic care history for the family.",
+      desc: "Avora Care allows prescriptions to be uploaded and stored, creating a basic care history for the family.",
       icon: <FileText className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -50,7 +50,7 @@ export default function HowItWorks() {
     {
       id: "10.5",
       title: "Medicine Refill Coordination",
-      desc: "MediReach can remind families when medicines may need to be refilled.",
+      desc: "Avora Care can remind families when medicines may need to be refilled.",
       icon: <Activity className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -61,7 +61,7 @@ export default function HowItWorks() {
     {
       id: "10.6",
       title: "Clinic Visit Coordination",
-      desc: "For selected plans, MediReach can help coordinate clinic or hospital visits. In future premium plans, this expands to physical assistance.",
+      desc: "For selected plans, Avora Care can help coordinate clinic or hospital visits. In future premium plans, this expands to physical assistance.",
       icon: <Activity className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -72,7 +72,7 @@ export default function HowItWorks() {
     {
       id: "10.7",
       title: "Lab Test Coordination",
-      desc: "MediReach can help coordinate diagnostic tests through partner labs.",
+      desc: "Avora Care can help coordinate diagnostic tests through partner labs.",
       icon: <FlaskConical className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -98,7 +98,7 @@ export default function HowItWorks() {
     {
       id: "10.9",
       title: "Family Notifications",
-      desc: "MediReach can send important updates to the payer via App, Email, SMS, WhatsApp, Viber, or Messenger.",
+      desc: "Avora Care can send important updates to the payer via App, Email, SMS, WhatsApp, Viber, or Messenger.",
       icon: <Bell className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -109,7 +109,7 @@ export default function HowItWorks() {
     {
       id: "10.10",
       title: "Monthly Health Summary",
-      desc: "For Plus and Premium plans, MediReach generates monthly family health summaries. A high-value trust feature.",
+      desc: "For Plus and Premium plans, Avora Care generates monthly family health summaries. A high-value trust feature.",
       icon: <PieChart className="text-[#020924] w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
       includes: [
@@ -129,10 +129,10 @@ export default function HowItWorks() {
             Core Services
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-[#111] mb-4">
-            MediReach Core Services
+            Avora Care Core Services
           </h2>
           <p className="text-gray-500 text-sm max-w-xl leading-relaxed">
-            MediReach provides seamless, comprehensive care coordination to ensure your family's health is managed and monitored effectively.
+            Avora Care provides seamless, comprehensive care coordination to ensure your family's health is managed and monitored effectively.
           </p>
         </div>
 

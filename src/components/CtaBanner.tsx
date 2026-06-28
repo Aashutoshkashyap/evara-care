@@ -17,7 +17,7 @@ export default function CtaBanner() {
 
           <div className="relative z-10 p-12 md:p-20 flex flex-col items-center text-center">
             <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-4">
-              Try the Avoracare app <br className="hidden md:block" /> for free for 14 days
+              Try the Avora Care app <br className="hidden md:block" /> for free for 14 days
             </h2>
             <p className="text-white/80 text-sm md:text-base font-medium max-w-md mb-10">
               The first step to a healthier family takes less than a minute.

@@ -7,10 +7,13 @@ import TestimonialSection from "@/components/TestimonialSection";
 import FaqSection from "@/components/FaqSection";
 import ContactForm from "@/components/ContactForm";
 
+import AboutUs from "@/components/AboutUs";
+
 export default function Home() {
   return (
     <div className="flex flex-col w-full overflow-x-hidden">
       <Hero />
+      <AboutUs />
       <FeaturesBar />
       <BeautifySection />
       <HowItWorks />

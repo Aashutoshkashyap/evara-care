@@ -25,7 +25,7 @@ export default function FaqSection() {
     },
     {
       question: "How do you keep me updated on my family's health while I'm abroad?",
-      answer: "Every time a service is completed, a detailed report (including doctor's notes, lab results, and prescriptions) is uploaded directly to your secure Avoracare dashboard. You'll receive real-time notifications on your phone.",
+      answer: "Every time a service is completed, a detailed report (including doctor's notes, lab results, and prescriptions) is uploaded directly to your secure Avora Care dashboard. You'll receive real-time notifications on your phone.",
     },
     {
       question: "Is emergency support included in the plans?",
@@ -33,7 +33,7 @@ export default function FaqSection() {
     },
     {
       question: "How do I pay for the actual medical bills (doctors, medicines)?",
-      answer: "You can load funds into your Avoracare Wallet or link a credit card. When a doctor visits or medicine is delivered, we transparently deduct the exact cost of the service. No hidden markups.",
+      answer: "You can load funds into your Avora Care Wallet or link a credit card. When a doctor visits or medicine is delivered, we transparently deduct the exact cost of the service. No hidden markups.",
     },
   ];
 
@@ -45,7 +45,7 @@ export default function FaqSection() {
           Frequently Asked Questions
         </h2>
         <p className="text-gray-500 text-[15px]">
-          Everything you need to know about Avoracare.
+          Everything you need to know about Avora Care.
         </p>
       </div>
 
