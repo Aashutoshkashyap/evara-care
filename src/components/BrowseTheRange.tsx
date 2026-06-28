@@ -18,7 +18,7 @@ export default function BrowseTheRange() {
     <section className="max-w-6xl mx-auto px-8 py-16">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#000080] mb-3">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#191970] mb-3">
           Browse The Range
         </h2>
         <p className="text-gray-500 text-[15px]">
@@ -37,7 +37,7 @@ export default function BrowseTheRange() {
                 className="w-full h-[320px] object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <h3 className="text-xl font-bold text-[#000080]">{cat.title}</h3>
+            <h3 className="text-xl font-bold text-[#191970]">{cat.title}</h3>
           </div>
         ))}
       </div>

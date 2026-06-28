@@ -14,7 +14,7 @@ export default function Hero() {
         
         {/* Floating Box on the Right */}
         <div className="bg-white/95 backdrop-blur-md p-10 md:p-12 rounded-2xl shadow-2xl w-full max-w-[480px]">
-          <p className="text-[#000080] font-bold tracking-widest text-sm uppercase mb-3">
+          <p className="text-[#191970] font-bold tracking-widest text-sm uppercase mb-3">
             Avoracare Family Care
           </p>
           <h1 className="text-4xl md:text-[42px] font-bold text-[#111] mb-5 leading-[1.15]">
@@ -23,7 +23,7 @@ export default function Hero() {
           <p className="text-gray-600 text-[15px] leading-relaxed mb-8">
             Coordinate your parents&apos; healthcare from anywhere in the world. We handle the local doctor visits, pharmacy deliveries, and emergencies — so you can have peace of mind.
           </p>
-          <button className="bg-[#000080] hover:bg-[#000066] text-white px-10 py-4 rounded-full font-bold transition-colors shadow-lg">
+          <button className="bg-[#191970] hover:bg-[#0a0a40] text-white px-10 py-4 rounded-full font-bold transition-colors shadow-lg">
             START CARING TODAY
           </button>
         </div>
