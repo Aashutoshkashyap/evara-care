@@ -15,7 +15,7 @@ export default function PricingSection() {
       ],
       ctaText: "Start Basic Plan",
       isPopular: false,
-      color: "bg-gray-100 text-gray-900",
+      color: "bg-white text-gray-900 border-gray-200",
     },
     {
       name: "Family Premium",
@@ -31,7 +31,7 @@ export default function PricingSection() {
       ],
       ctaText: "Start Premium Plan",
       isPopular: true,
-      color: "bg-[#e0f2fe] text-[#0369a1]",
+      color: "bg-[#0d2c4a] text-white border-[#0d2c4a] transform scale-105 shadow-2xl z-10 relative",
     },
     {
       name: "Total Wellness",
@@ -47,62 +47,59 @@ export default function PricingSection() {
       ],
       ctaText: "Contact Sales",
       isPopular: false,
-      color: "bg-gray-100 text-gray-900",
+      color: "bg-white text-gray-900 border-gray-200",
     },
   ];
 
   return (
-    <section id="pricing" className="w-full bg-white py-24 border-t border-gray-100">
-      <div className="max-w-6xl mx-auto px-8">
-        <div className="text-center mb-16">
-          <span className="border border-gray-200 bg-white text-gray-700 text-xs font-bold px-4 py-1.5 rounded-full mb-6 shadow-sm inline-block">
-            Simple Subscriptions
+    <section id="pricing" className="w-full bg-[#f8fafc] py-24">
+      <div className="max-w-7xl mx-auto px-8">
+        <div className="text-center mb-20">
+          <span className="text-[#0f766e] font-bold tracking-widest text-sm uppercase mb-3 block">
+            Pricing Plans
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold text-[#111] mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#111] mb-6">
             Care Plans Built for Distance
           </h2>
-          <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
+          <p className="text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
             Choose a monthly subscription plan that fits your family's needs. We manage the care, you simply cover the subscription and direct medical costs.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div 
               key={index} 
-              className={`relative bg-white rounded-[2rem] border ${plan.isPopular ? 'border-blue-200 shadow-xl' : 'border-gray-200 shadow-sm'} p-2 flex flex-col`}
+              className={`rounded-3xl border p-8 md:p-10 transition-all duration-300 hover:-translate-y-2 ${plan.color}`}
             >
-              <div className={`${plan.color} rounded-t-[1.5rem] rounded-b-xl p-8 pt-10 text-center relative overflow-hidden`}>
-                {plan.isPopular && (
-                  <div className="absolute top-4 right-4 bg-white text-blue-600 text-[10px] font-bold px-3 py-1 rounded-full shadow-sm">
-                    Most Popular
-                  </div>
-                )}
-                <h3 className="font-bold text-lg mb-2">{plan.name}</h3>
-                <div className="flex items-end justify-center gap-1 mb-4">
-                  <span className="text-4xl font-black">{plan.price}</span>
-                  <span className="text-sm font-medium opacity-80 mb-1">{plan.period}</span>
+              {plan.isPopular && (
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#0f766e] text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg whitespace-nowrap tracking-wide uppercase">
+                  Most Popular
                 </div>
-                <p className="text-xs opacity-90 font-medium px-4">{plan.description}</p>
-                
-                {/* Overlapping Button */}
-                <button className={`absolute -bottom-5 left-1/2 -translate-x-1/2 w-[80%] py-3 rounded-full font-bold text-sm shadow-lg transition-transform hover:-translate-y-1 ${plan.isPopular ? 'bg-[#0f766e] text-white hover:bg-[#115e59]' : 'bg-[#0f766e] text-white hover:bg-[#115e59]'}`}>
-                  {plan.ctaText}
-                </button>
+              )}
+              
+              <h3 className={`text-xl font-bold mb-2 ${plan.isPopular ? 'text-white' : 'text-gray-900'}`}>{plan.name}</h3>
+              <p className={`text-sm mb-6 h-10 ${plan.isPopular ? 'text-blue-200' : 'text-gray-500'}`}>{plan.description}</p>
+              
+              <div className="flex items-end gap-2 mb-8">
+                <span className="text-5xl font-black">{plan.price}</span>
+                <span className={`text-base font-medium mb-1 ${plan.isPopular ? 'text-blue-200' : 'text-gray-500'}`}>{plan.period}</span>
               </div>
+              
+              <button className={`w-full py-4 rounded-xl font-bold text-base transition-all duration-300 shadow-md hover:shadow-lg mb-8 ${plan.isPopular ? 'bg-[#0f766e] text-white hover:bg-[#115e59]' : 'bg-gray-100 text-gray-900 hover:bg-gray-200'}`}>
+                {plan.ctaText}
+              </button>
 
-              <div className="px-8 pt-12 pb-8 flex-1">
-                <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-6">What's included</p>
-                <ul className="space-y-4">
-                  {plan.features.map((feature, fIndex) => (
-                    <li key={fIndex} className="flex items-start gap-3">
-                      <div className="mt-0.5 bg-green-100 p-1 rounded-full text-green-600 flex-shrink-0">
-                        <Check size={12} strokeWidth={3} />
-                      </div>
-                      <span className="text-sm text-gray-600 font-medium">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+              <div className="space-y-4">
+                <p className={`text-xs font-bold uppercase tracking-wider mb-4 ${plan.isPopular ? 'text-blue-200' : 'text-gray-400'}`}>What's included</p>
+                {plan.features.map((feature, fIndex) => (
+                  <div key={fIndex} className="flex items-start gap-3">
+                    <div className={`mt-1 p-0.5 rounded-full flex-shrink-0 ${plan.isPopular ? 'bg-white/20 text-white' : 'bg-teal-50 text-[#0f766e]'}`}>
+                      <Check size={14} strokeWidth={3} />
+                    </div>
+                    <span className={`text-sm font-medium leading-tight ${plan.isPopular ? 'text-gray-100' : 'text-gray-600'}`}>{feature}</span>
+                  </div>
+                ))}
               </div>
             </div>
           ))}

@@ -1,5 +1,3 @@
-"use client";
-
 import { Star } from "lucide-react";
 
 function Stars({ count = 5 }: { count?: number }) {
@@ -14,153 +12,114 @@ function Stars({ count = 5 }: { count?: number }) {
 
 export default function TestimonialSection() {
   return (
-    <section className="w-full bg-[#eef0f3] py-24 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-start">
+    <section className="w-full bg-[#f8fafc] py-24 overflow-hidden relative">
+      <div className="max-w-7xl mx-auto px-8">
+        
+        <div className="text-center mb-16 relative z-10">
+          <span className="text-[#0f766e] font-bold tracking-widest text-sm uppercase mb-3 block">
+            Testimonials
+          </span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#111] mb-6">
+            Listen from our users
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start relative z-10">
           
-          {/* COLUMN 1 */}
-          <div className="flex flex-col gap-6 md:gap-8 mt-12 md:mt-0">
+          {/* Column 1 */}
+          <div className="flex flex-col gap-6 pt-12">
             {/* Card 1 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative mt-4">
-              <span className="text-[120px] text-gray-300 font-serif leading-none absolute -top-8 -left-6 z-0 drop-shadow-md">&ldquo;</span>
+            <div className="bg-white rounded-3xl p-8 shadow-sm relative group hover:shadow-md transition-shadow">
+              <span className="text-[100px] text-[#f1f5f9] font-serif leading-none absolute -top-4 -left-2 z-0 transition-transform group-hover:-translate-y-2">&ldquo;</span>
               <div className="relative z-10">
-                <p className="text-gray-600 text-[11px] leading-relaxed mb-6 font-medium">
-                  I live in Dubai and my parents are in Kathmandu. When my father needed an urgent cardiologist visit, Evara arranged everything within hours. I got the full report on my phone the same evening.
+                <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                  "I live in Dubai and my parents are in Kathmandu. When my father needed an urgent cardiologist visit, Evara arranged everything within hours. I got the full report on my phone the same evening."
                 </p>
-                <div className="flex items-center gap-3">
-                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Rajesh" className="w-10 h-10 rounded-full object-cover" />
+                <div className="flex items-center gap-4">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Rajesh" className="w-12 h-12 rounded-full object-cover" />
                   <div>
-                    <p className="font-bold text-[#0f766e] text-xs">Rajesh Sharma</p>
-                    <p className="text-gray-400 text-[10px]">IT Consultant · Dubai, UAE</p>
+                    <p className="font-bold text-[#111]">Rajesh Sharma</p>
+                    <p className="text-gray-400 text-xs">Dubai, UAE</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Card 2 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
-              <p className="text-gray-600 text-[11px] leading-relaxed mb-6 font-medium">
-                My mother needed regular lab tests for her thyroid condition. Evara sends a technician to her home every month, and the results go straight to my dashboard. It has made managing her chronic condition so much easier from abroad.
+            {/* Card 2 - Blue accent */}
+            <div className="bg-[#0f766e] text-white rounded-3xl p-8 shadow-lg relative group hover:-translate-y-1 transition-transform">
+              <div className="flex justify-between items-start mb-6">
+                <Stars count={5} />
+                <span className="text-5xl text-white/20 font-serif leading-none absolute top-6 right-6">&rdquo;</span>
+              </div>
+              <p className="text-blue-50 text-sm leading-relaxed mb-6 font-medium">
+                "The 24/7 care coordination has been incredible. Having a dedicated team manage my parents' health while I work in Seoul has given our family complete peace of mind."
               </p>
-              <div className="flex items-center gap-3">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Anita" className="w-10 h-10 rounded-full object-cover" />
+              <div className="flex items-center gap-4">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Bikram" className="w-12 h-12 rounded-full object-cover border-2 border-white/20" />
                 <div>
-                  <p className="font-bold text-[#0f766e] text-xs">Anita Gurung</p>
-                  <p className="text-gray-400 text-[10px]">Nurse · Sydney, Australia</p>
+                  <p className="font-bold text-white">Bikram Rai</p>
+                  <p className="text-blue-200 text-xs">Seoul, South Korea</p>
                 </div>
-              </div>
-            </div>
-
-            {/* Card 3 with speech bubble tail */}
-            <div className="relative">
-              <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative">
-                <h3 className="font-bold text-[#0f766e] text-lg mb-2 text-center">Truly life-changing!</h3>
-                <p className="text-gray-500 text-[11px] leading-relaxed mb-4 text-center font-medium">
-                  Being 7,000 miles from my aging parents was terrifying. With Evara, I know that any health emergency is handled immediately. The peace of mind is priceless.
-                </p>
-                <p className="font-bold text-[#0f766e] text-[11px] text-center">Suman Adhikari</p>
-                
-                {/* Speech tail */}
-                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[15px] border-r-[15px] border-t-[20px] border-transparent border-t-white"></div>
-              </div>
-              
-              {/* Avatars below tail */}
-              <div className="flex justify-center gap-2 mt-8">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="User" className="w-12 h-12 rounded-full object-cover border-4 border-[#eef0f3] shadow-sm" />
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="User" className="w-16 h-16 rounded-full object-cover border-4 border-[#eef0f3] shadow-md -mt-2" />
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="User" className="w-12 h-12 rounded-full object-cover border-4 border-[#eef0f3] shadow-sm" />
               </div>
             </div>
           </div>
 
-          {/* COLUMN 2 */}
-          <div className="flex flex-col gap-6 md:gap-8">
+          {/* Column 2 */}
+          <div className="flex flex-col gap-6">
+            {/* Card 3 - Image breakout */}
+            <div className="bg-white rounded-3xl p-8 shadow-sm relative mt-8 text-center group hover:shadow-md transition-shadow">
+              <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=200&q=80" alt="Priya" className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg absolute -top-10 left-1/2 -translate-x-1/2 group-hover:scale-110 transition-transform" />
+              <div className="mt-8 flex justify-center mb-4"><Stars /></div>
+              <h3 className="font-bold text-[#111] text-lg mb-3">Exceptional service!</h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                "My father had a sudden fever at midnight. I called the Evara hotline from London and they had a doctor at his home within 90 minutes. The follow-up was thorough."
+              </p>
+              <p className="font-bold text-[#0f766e]">Priya Thapa</p>
+              <p className="text-gray-400 text-xs">London, UK</p>
+            </div>
+
             {/* Card 4 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative mt-12 text-center">
-              <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=200&q=80" alt="Priya" className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-md absolute -top-10 left-1/2 -translate-x-1/2" />
-              <div className="mt-8 flex justify-center mb-3"><Stars /></div>
-              <h3 className="font-bold text-[#0f766e] text-lg mb-2">Exceptional service!</h3>
-              <p className="text-gray-500 text-[11px] leading-relaxed mb-4 font-medium">
-                My father had a sudden fever at midnight. I called the Evara hotline from London and they had a doctor at his home within 90 minutes. The follow-up was thorough and professional.
+            <div className="bg-white rounded-3xl p-8 shadow-sm group hover:shadow-md transition-shadow">
+              <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                "My mother needed regular lab tests. Evara sends a technician to her home every month, and the results go straight to my dashboard. It has made managing her condition so much easier."
               </p>
-              <p className="font-bold text-[#0f766e] text-xs">Priya Thapa</p>
-              <p className="text-gray-400 text-[10px]">@priya.thapa · London, UK</p>
-              <span className="text-[100px] text-[#2c3e50] font-serif leading-none absolute -bottom-10 right-4 drop-shadow-md">&rdquo;</span>
-            </div>
-
-            {/* Card 5 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative mt-10 text-center">
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80" alt="Customer" className="w-16 h-16 rounded-full object-cover border-4 border-white shadow-md absolute -top-8 left-1/2 -translate-x-1/2" />
-              <div className="mt-6 flex justify-center mb-3"><Stars /></div>
-              <p className="text-gray-500 text-[11px] leading-relaxed mb-4 font-medium">
-                &ldquo;The medicine delivery alone is worth every penny. My mother no longer has to travel across town to pick up her prescriptions. Evara delivers everything right to her door.&rdquo;
-              </p>
-              <p className="text-gray-400 text-[12px] italic signature-font font-serif">Sabina Karki</p>
-            </div>
-
-            {/* Card 5b */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
-              <div className="flex justify-start mb-3"><Stars count={5} /></div>
-              <p className="text-gray-600 text-[11px] leading-relaxed mb-6 font-medium">
-                &ldquo;The 24/7 care coordination has been incredible. Having a dedicated team manage my parents&apos; health while I work in Seoul has given our family complete peace of mind.&rdquo;
-              </p>
-              <div className="flex items-center gap-3">
-                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Bikram" className="w-10 h-10 rounded-full object-cover" />
+              <div className="flex items-center gap-4">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Anita" className="w-12 h-12 rounded-full object-cover" />
                 <div>
-                  <p className="font-bold text-[#0f766e] text-xs">Bikram Rai</p>
-                  <p className="text-gray-400 text-[10px]">Engineer · Seoul, South Korea</p>
+                  <p className="font-bold text-[#111]">Anita Gurung</p>
+                  <p className="text-gray-400 text-xs">Sydney, Australia</p>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Column 3 */}
+          <div className="flex flex-col gap-6 pt-16">
+            {/* Card 5 */}
+            <div className="bg-white rounded-3xl p-8 shadow-sm relative group hover:shadow-md transition-shadow">
+              <span className="text-[100px] text-[#f1f5f9] font-serif leading-none absolute -top-4 left-4 z-0">&ldquo;</span>
+              <p className="text-gray-900 font-bold text-sm leading-relaxed mt-6 mb-4 relative z-10">
+                "The ambulance response saved my father's life."
+              </p>
+              <p className="text-gray-600 text-sm leading-relaxed mb-6 relative z-10">
+                "He had a cardiac episode at 2 AM. I called Evara from Canada and they dispatched an ambulance immediately. He was at the hospital within 20 minutes."
+              </p>
+              <div className="flex items-center justify-end gap-3 relative z-10">
+                <p className="font-bold text-[#0f766e] text-xs">Dipesh Pandey <span className="text-gray-400 font-normal"> - Toronto, Canada</span></p>
               </div>
             </div>
 
             {/* Card 6 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative mt-10 text-center">
-              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80" alt="Meera" className="w-16 h-16 rounded-full object-cover border-4 border-white shadow-md absolute -top-8 left-1/2 -translate-x-1/2" />
-              <div className="mt-6 flex justify-center mb-3"><Stars /></div>
-              <p className="text-gray-500 text-[11px] leading-relaxed mb-4 font-medium">
-                &ldquo;I was worried about my parents managing their diabetes and blood pressure alone. Evara&apos;s monthly health checkups and real-time dashboard have been a blessing.&rdquo;
+            <div className="bg-white rounded-3xl p-8 shadow-sm group hover:shadow-md transition-shadow">
+              <div className="flex justify-start mb-4"><Stars /></div>
+              <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                "As a single child working abroad, the guilt of leaving my elderly parents was overwhelming. Evara became my trusted partner on the ground."
               </p>
-              <p className="text-gray-400 text-[14px] italic signature-font font-serif">Meera Joshi</p>
-            </div>
-          </div>
-
-          {/* COLUMN 3 */}
-          <div className="flex flex-col gap-6 md:gap-8 mt-12 md:mt-0">
-            {/* Card 7 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative mt-12 text-center">
-              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="User" className="w-16 h-16 rounded-full object-cover border-4 border-white shadow-md absolute -top-8 left-1/2 -translate-x-1/2" />
-              <h3 className="font-bold text-[#0f766e] text-base mb-2 mt-6">Worth every rupee!</h3>
-              <div className="flex justify-center mb-3"><Stars /></div>
-              <p className="text-gray-500 text-[11px] leading-relaxed font-medium">
-                I used to fly back every time something happened. Now Evara handles the coordination and I just monitor from my dashboard. Saved me time, money, and stress.
-              </p>
-            </div>
-
-            {/* Card 8 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm relative mt-6">
-              <span className="text-[60px] text-gray-300 font-serif leading-none absolute top-4 left-4">&ldquo;</span>
-              <p className="text-gray-600 text-[11px] leading-relaxed mt-4 mb-4 font-medium relative z-10 font-bold">
-                The ambulance response saved my father&apos;s life.
-              </p>
-              <p className="text-gray-500 text-[10px] leading-relaxed mb-6 font-medium relative z-10">
-                He had a cardiac episode at 2 AM. I called Evara from Canada and they dispatched an ambulance immediately. He was at the hospital within 20 minutes. I cannot thank them enough.
-              </p>
-              <div className="flex items-center justify-end gap-3 relative z-10">
-                <p className="font-bold text-[#0f766e] text-[10px]">Dipesh Pandey - <span className="text-gray-400 font-normal">Toronto, Canada</span></p>
-              </div>
-              <span className="text-[60px] text-[#2c3e50] font-serif leading-none absolute top-4 right-4">&rdquo;</span>
-            </div>
-
-            {/* Card 9 */}
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
-              <p className="text-gray-600 text-[11px] leading-relaxed mb-6 font-medium">
-                &ldquo;As a single child working abroad, the guilt of leaving my elderly parents was overwhelming. Evara became my trusted partner on the ground. They coordinate everything from checkups to emergencies.&rdquo;
-              </p>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-4">
                 <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80" alt="Arun" className="w-12 h-12 rounded-full object-cover" />
                 <div>
-                  <p className="font-bold text-[#0f766e] text-xs">Arun Shrestha</p>
-                  <p className="text-gray-400 text-[10px]">Business Owner · Doha, Qatar</p>
+                  <p className="font-bold text-[#111]">Arun Shrestha</p>
+                  <p className="text-gray-400 text-xs">Doha, Qatar</p>
                 </div>
               </div>
             </div>
