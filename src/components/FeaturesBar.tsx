@@ -3,22 +3,22 @@ import { Stethoscope, Pill, TestTube, Ambulance } from "lucide-react";
 export default function FeaturesBar() {
   const features = [
     {
-      icon: <Stethoscope size={40} className="text-[#191970]" strokeWidth={1.5} />,
+      icon: <Stethoscope size={40} className="text-[#0e142a]" strokeWidth={1.5} />,
       title: "Doctor Consultations",
       description: "Top local specialists",
     },
     {
-      icon: <Pill size={40} className="text-[#191970]" strokeWidth={1.5} />,
+      icon: <Pill size={40} className="text-[#0e142a]" strokeWidth={1.5} />,
       title: "Pharmacy Delivery",
       description: "Medicines to their door",
     },
     {
-      icon: <TestTube size={40} className="text-[#191970]" strokeWidth={1.5} />,
+      icon: <TestTube size={40} className="text-[#0e142a]" strokeWidth={1.5} />,
       title: "At-Home Lab Tests",
       description: "Convenient diagnostics",
     },
     {
-      icon: <Ambulance size={40} className="text-[#191970]" strokeWidth={1.5} />,
+      icon: <Ambulance size={40} className="text-[#0e142a]" strokeWidth={1.5} />,
       title: "Emergency Transport",
       description: "24/7 rapid response",
     },
